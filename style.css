@@ -1,0 +1,571 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+    font-family: arial;
+}
+/**banner**/     
+.banner{
+    background-image : linear-gradient(to top, rgba(0,0,0,0.8)0,rgba(0,0,0,0.8)), url('hero\ banner.jpg');
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+
+}
+/**box1**/
+.container{
+    display: flex;
+    justify-content: space-evenly; 
+}
+.navlogo{
+    background-image: url('netflix-logo.png');
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    margin-right: 500px;
+}
+.btn{
+    height: 35px;
+    width:  70px;
+    background-color: red;
+    border-radius: 0.25rem;
+    color: #ffffff;
+    font-size: 15px;
+    border: rgb(299, 9, 20);
+    padding: 5px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 1px solid white;
+}
+/**box2**/
+.content{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 100px;
+}
+.btn2{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    border-radius: 0.25rem;
+    color: #ffffff;
+    font-size: 20px;
+    border: rgb(299, 9, 20);
+    padding: 5px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.btn2:hover{
+    border: 1px solid white;
+}
+.content p{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.email{
+    height: 37px;
+    width: 370px;
+    padding:4px;
+    background-color: transparent;
+    border: 2px solid #1f2020;
+    color: #ffffff;
+    border-radius: 0.25rem;
+}
+/**box3**/
+.homeContent1{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-top: 5px solid #1f2020 ;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.tv{
+    margin-top: 50px;
+    height: 300px;
+    width: 500px;
+}
+.HCh1{
+    margin-top: 100px;
+    font-weight: 900;
+    font-size:   50px;
+}
+.para{
+    margin-top: 10px;
+    font-size:   1.5rem;
+}
+/**Download offline**/
+.mobile{
+    position: relative;
+    top: 80px;
+    left: 300px;
+}
+.homemin{
+    width: 400px;
+    height: 80px;
+    display: inline-flex;
+    align-items: center;
+    background-color: black;
+    border: 2px solid  #1f2020;
+    border-radius: 10px;
+    padding: 8px;
+    position: relative;
+    top: 300px;
+    right: 150px;
+}
+#offline{
+    position: relative;
+    left: 150px;
+    bottom: 40px;
+}
+.homemin i{
+    font-size: 30px;
+}
+.Download{
+    display: flex;
+}
+.para2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.para3 {
+    color: blue;
+    margin-top: 10px;
+    position: relative;
+    right: 150px;
+}
+.kids{
+    margin-top: 50px;
+}
+/**FAQS**/
+.homeContent3{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-top: 5px solid #1f2020 ;
+}
+.FAQs{
+    background-color: black;
+    height: 1500px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-top: 5px solid dimgrey ;  
+}
+
+.Questions{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.Qs{
+    background-color: #1f2020;
+    color: #ffffff;
+    height: 100%;
+    width: 80%;
+    padding: 20px;
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    cursor: pointer;
+}
+.FAQs button{
+    display: flex;
+    
+}
+.plus{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 250px;
+}
+.FAQs #para{
+    font-size:   1.5rem;   
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.FAQs input{
+    height: 37px;
+    width: 370px;
+    padding:4px;
+    background-color: transparent;
+    border: 2px solid #1f2020;
+    color: #ffffff;
+    border-radius: 0.25rem;
+}
+.ans1{
+    background-color: #1f2020;
+    color: #ffffff;
+    height: 100%;
+    width: 76.5%;
+    padding: 20px;
+    margin-left: 50px;
+    font-size: 18px;
+    text-align: left;
+    max-height: 0;
+    cursor: pointer;
+    visibility: hidden;
+}
+#button{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    border-radius: 0.25rem;
+    color: #ffffff;
+    font-size: 20px;
+    border: rgb(299, 9, 20);
+    padding: 5px;
+    padding-top: 13px;
+    padding-left: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#button:hover{
+    border: 1px solid white;
+}
+.footerP{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 300px;
+    border-top: 5px solid #1f2020 ;
+}
+ul a{
+    display: block;
+    margin-top: 5px;
+    font-size: 0.85rem;
+    color: #dddddd;
+    cursor: pointer;    
+}
+/**Sign in**/
+.signin{
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    height: 550px;
+    width:  450px;
+    margin-top: 50px;
+    padding: 10px;
+    position: absolute;
+    top: 60px;
+    left: 430px;
+    visibility: hidden;
+    /* visibility: visible; */
+}
+.close{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    position: relative;
+    left: 418px;
+    cursor: pointer;
+}
+.close i{
+    font-weight: 900;
+    margin: 8px 8px;
+}
+.close:hover{
+    border: 1px solid white;
+}
+.signin h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: 48px;
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+}
+.Emailbox{
+    width: 78%;
+    height: 25px;
+    margin-top: 8px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 50px;
+    background-color: transparent;
+}
+.signin button{
+    width: 84%;
+    height: 45px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.25rem;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.signin button:hover{
+    border: 1px solid white;
+}
+.forget{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.forget:hover{
+    text-decoration: underline;
+}
+#btn4{
+    margin-top: 10px;
+    background-color: #1f2020;
+    cursor: pointer;
+}
+#checkbox{
+ height: 15px;
+ width:  15px;
+ margin-left: 10px;
+ margin-bottom: 10px;
+ cursor: pointer;
+}
+.signout{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.signout a{
+    font-weight: 600;
+    cursor: pointer;
+}
+.signout a:hover{
+    text-decoration: underline;
+}
+.protectmsg{
+    font-size: 15px;
+    color: grey;
+    margin-left: 10px;
+}
+.protectmsg a{
+    color: blue;
+    cursor: pointer;
+}
+/**page**/
+.step{
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    position: relative;
+    top: 130px;
+    left: 38%;
+}
+.pages{
+    border-bottom: 2px solid rgb(206, 201, 201) ;
+    display: flex;
+}
+.pg-logo{
+    background-image: url(netflix-logo.png);
+    background-size: cover;
+    margin-bottom: 10px;
+    height: 80px;
+    width: 150px;
+}
+.pages button{
+    background-color: #ffffff;
+    border: none;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    font-size: 20px;;
+
+}
+.step p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.step h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+.step button{
+    width: 84%;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid white ;
+    border-radius: 0.25rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.step .emailbox{
+    height: 30px;
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 0.25rem;
+    padding: 3px;
+    margin: 10px ;
+}
+/*step2*/
+#step2{
+    width: 250px;
+    margin-left:  20px; ;
+}
+#step2 button{
+    width: 100%;
+}
+.step li{
+    line-height: 30px;
+    text-align: left;
+    font-size: 16px;
+    list-style: none;
+    margin-top: 20px;
+}
+/*step2.1*/
+.step25{
+    position: absolute;
+    top: 150px;
+}
+.packages{
+   margin-left: 60px;
+}
+.package1{
+  padding: 30px;
+  border: 2px solid rgb(207, 206, 206);
+  border-radius: 0.8rem;
+  display: inline-block; 
+  width: 210px;
+  color: black;
+  margin-left: 20px;
+
+}
+.package1 .head{
+    height: 60px;
+    width: 210px;
+    padding: 20px;
+    background: linear-gradient(to left, blue,rgb(105, 105, 180) );
+    border-radius: 0.8rem;
+    position: relative;
+    right: 20px;
+    bottom: 18px;
+    color: #ffffff;
+  
+}
+.package1 .ans{
+    border-bottom: 1.5px solid rgb(207, 206, 206) ;
+    line-height: 35px;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+.package1 #answ{
+    border: none;
+}
+.package1 .option{
+    margin-top: 10px;
+ 
+}
+.step25 h1{
+      margin-bottom: 50px;
+      margin-left: 80px;
+}
+.step25 #stp2{
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+.step25 button{
+    width: 300px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid white ;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-bottom: 200px;
+    cursor: pointer;
+}
+.step25 #note{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: #1f2020;
+}
+/*step3*/
+.step #Secure{
+    font-weight: 700;
+}
+.step #End-to-end{
+    font-size: 13px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.step #pay{
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    border: 2px solid grey;
+    border-radius: 0.5rem;
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 10px;
+    
+}
+/*step35*/
+#step4{
+    width: 430px;
+    height: 600px;
+    text-align: left;
+    position: absolute;
+    top: 150px;
+}
+.crd-nmbr{
+    width: 95%;
+    border-radius: 4px;
+    border: 2px solid grey;
+    padding: 8px;
+    margin-top: 10px;
+}
+.expiry{
+    width: 170px;
+    border-radius: 4px;
+    border: 2px solid grey;
+    padding: 8px;
+    margin-top: 10px;
+}
+#CVV {
+    width: 198px;
+}
+#ex{
+    width: 185px;
+}
+#step4 div{
+    background-color: rgb(219, 217, 217);
+    border: none;
+    width: 95%;
+    padding: 8px;
+    margin-top: 10px;
+} 
+#step4 div a{
+    text-decoration: none;
+    color: blue;
+    margin-left: 220px;
+}
+#step4 button{
+    width: 100%;
+}
